@@ -1,11 +1,12 @@
-# Bi-Connected Components (BCC) Validator Overview
+# Implicit Bi-Connected Components (BCC) Validator Overview
 
-This C++ program is designed to validate the results of serial and parallel computations related to Bi-connected Components (BCC) in graphs. It compares the results for cut vertices and BCCs from two different computations to ensure consistency and correctness.
-Files
+This C++ program is designed to validate the results of serial and parallel output related to Bi-connected Components (BCC) in graphs. 
+It compares the results for cut vertices and BCCs for each vertex from the serial output vs parallel output to ensure consistency and correctness.
+## Files
 
-    bcc_validator.cpp: Main program file containing the source code.
-    test_1.txt: Sample output file from serial computation.
-    test_2.txt: Sample output file from parallel computation.
+    - bcc_validator.cpp: Main program file containing the source code.
+    - test_1.txt: Sample output file from serial computation.
+    - test_2.txt: Sample output file from parallel computation.
 
 ## Compilation
 
