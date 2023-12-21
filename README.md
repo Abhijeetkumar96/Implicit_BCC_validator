@@ -4,9 +4,9 @@ This C++ program is designed to validate the results of serial and parallel outp
 It compares the results for cut vertices and BCCs for each vertex from the serial output vs parallel output to ensure consistency and correctness.
 ## Files
 
-    - bcc_validator.cpp: Main program file containing the source code.
-    - test_1.txt: Sample output file from serial computation.
-    - test_2.txt: Sample output file from parallel computation.
+- bcc_validator.cpp: Main program file containing the source code.
+- test_1.txt: Sample output file from serial computation.
+- test_2.txt: Sample output file from parallel computation.
 
 ## Compilation
 
